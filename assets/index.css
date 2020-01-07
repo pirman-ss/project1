@@ -13,6 +13,11 @@ body {
     display: flex;
     justify-content: center;
 }
+hr {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .colom {
     width: 20%;
     margin-right: 10px;
