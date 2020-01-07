@@ -28,7 +28,18 @@ footer a {
 }
 footer img {
     width: 30px;
+    height: 30px;
 }
 img {
     height: 250px;
 }
+.img-hover-zoom--brightness img {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(65%);
+  }
+  
+  .img-hover-zoom--brightness:hover img {
+    filter: brightness(100%);
+    transform: scale(1.3);
+  }
